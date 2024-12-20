@@ -115,13 +115,153 @@
 // ikkitaSon(56,5)
 // 20
 
-function printArray () {
-    for (let i = 1; i<=6; i++){
-        console.log(i)
-    }
-}
-printArray()
+// function printArray () {
+//     for (let i = 1; i<=6; i++){
+//         console.log(i)
+//     }
+// }
+// printArray()
+// 21
+// function oyoqlar(tovuq, qoy, sigir) {
+//    return (2*2)+(3*4)+(5*4) 
+// }
+// let result= oyoqlar(2, 3, 5)
+// console.log(result)
 
+// 22
+
+// function tengMi(x, y) {
+//     if (x === y){
+//         console.log(true)
+//     } else {
+//         console.log(false)   
+//     }
+// }
+// tengMi(4, 8)
+// 23
+// function futbolOchko(yutishlar, duranglar, maglubiyatlar) {
+//     return `${( yutishlar*3)+(duranglar*1)+(maglubiyatlar*0)}`
+// }
+// let fut = futbolOchko(3,4,2)
+// console.log(fut)
+// 25
+// function sekundlar(soat, minut) {
+//     let son = soat*3600
+//     let min = minut*60
+//     return son+min
+// }
+// let soatMunut = sekundlar(1,3)
+// console.log(soatMunut)
+// 26
+// function juft (son) {
+//     if(son%2===0){
+//         console.log(true)
+//     } else {
+//         console.log(false)
+//     }
+        
+// }
+// juft (4)
+// 27
+
+// function tengMi(x, y) {
+//     if(x===y){
+//         console.log(true)
+//     } else {
+//         console.log(false) 
+//     }
+// }
+// tengMi(1,1)
+// 28
+// function booleanToString(bool) {
+//     return '' + bool;
+// }
+// let s = booleanToString(true)
+// console.log(s)
+// 29
+// let async = (params) => {
+//     return params
+// }
+// let s= async (3)
+// console.log(s)
+// 30
+// function frameSoni(minut, frame) {
+//     return minut*60
+// }
+// let result = frameSoni(10,1)
+// console.log(result)
+
+// function teng10(str,ki) {
+//    if(str+ki>= 10|| str >=10 || ki>=10) {
+//     console.log(true)
+//    } else {
+// console.log(false)
+//    }
+// }
+// teng10(6,4)
+
+// function litrMasofa(km) {
+//     return km*10
+// }
+// let s = litrMasofa(15)
+// console.log(s)
+
+// function son (a,b) {
+//     if(a>b){
+//         return a;
+//     } else {
+//      return b
+//     }
+// }
+// let s = son(5,8)
+// console.log(s)
+
+
+
+// function arr(x, y) {
+//     return [x, y];
+//   }
+//   let s = arr(5,8)
+// console.log(s)
+
+// function tengStrings(str1, str2) {
+// if ( str1.length === str2.length){
+//     console.log(true)
+// }else{
+//     console.log(false) 
+// }
+// }
+// let s = tengStrings("AB", "CD")
+
+// function boshStr(str) {
+//     return str===''
+// }
+//   let s = boshStr('f')
+// console.log(s)
+    
+// function bolinsin5(son) {
+//  return son%5===0
+// }
+//   let s = bolinsin5(50)
+// console.log(s)
+
+// function bolinsin100(son) {
+//     return son%100===0  
+// }
+//   let s = bolinsin100(100)
+// console.log(s)
+
+function uzunlik(str) {
+    
+    if (str === "") {
+      return 0;  
+    } else {
+      return 1 + uzunlik(str.slice(1));  
+    }
+  }
+  
+ 
+  console.log(uzunlik("apple"));
 
 
 
