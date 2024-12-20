@@ -1,7 +1,7 @@
-// 1
-// function sum (x,y) {
-// return x+y
-// }
+1
+function sum (x,y) {
+return x+y
+}
 
 // let a = sum( 2,6)
 // console.log(a)
